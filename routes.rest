@@ -1,0 +1,17 @@
+
+GET http://localhost:3000/pokemon/123
+
+###
+GET http://localhost:3000/pokemon/123/base
+
+
+# POST http://localhost:3000/users/student
+# Content-Type: application/json
+
+# {
+#     "name": "Hample",
+#     "first_name": "Susu",
+#     "email": "hamplesusu@gmx.de"
+# }
+
+###
