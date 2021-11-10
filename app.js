@@ -6,7 +6,7 @@ var path = require('path');
 var indexRouter = require('./routes/index');
 var pokemonRouter = require('./routes/pokemon');
 
-const port = process.env.PORT || 3001; 
+const port = process.env.PORT || 3002; 
 
 var app = express();
 
