@@ -1,4 +1,5 @@
 const jsonData = require('../pokedex.json');
+require("../database/client");
 
 const list_detail = async (req, res, next) => {
   const pokemonID = req.params.id;
